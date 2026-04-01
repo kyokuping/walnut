@@ -1,0 +1,21 @@
+# Editor/OS
+.DS_Store
+*.swp
+*.swo
+*.sw
+*~
+
+# Build
+duo-buildroot-sdk-v2/output/
+duo-buildroot-sdk-v2/build/
+*.log
+*.bak
+
+# just
+.just/
+
+# nix
+flake.nix
+flake.lock
+.direnv
+.envrc
